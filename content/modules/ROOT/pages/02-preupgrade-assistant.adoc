@@ -1,0 +1,24 @@
+== Running the pre-upgrade assistant and resolving issues
+
+Built into the leapp tool is a utility that collects data about the
+system, assesses upgradability, and generates a pre-upgrade report. On
+your lab system, perform the pre-upgrade test: (This process will take a
+couple minutes.)
+
+[source,bash,run]
+----
+leapp preupgrade --target 9.5
+----
+
+Notice how the upgrade was "`inhibited`" because the preupgrade
+assistant requires your input on one or more issues before it will
+safely proceed. Take a look at the first entry in the `+leapp-report+`
+file in the log directory:
+
+[source,bash,run]
+----
+head -n 5 /var/log/leapp/leapp-report.txt
+----
+
+One of the major security changes in RHEL 9 was that the `+root+`
+account is no longer allowed to login via SSH by default.

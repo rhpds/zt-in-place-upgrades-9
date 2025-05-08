@@ -1,0 +1,21 @@
+---
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: "01-install-leapp"
+      label: "Install Leapp"
+      solveButton: true
+    - name: "02-preupgrade-assistant"
+      label: "Preupgrade Assistant"
+      solveButton: true
+    - name: "03-fixing-inhibitor"
+      label: "Fixing Inhibitor"
+      solveButton: true
+    - name: "04-upgrading"
+      label: "Upgrading"
+      solveButton: true
+
+tabs:
+  - name: ">_ terminal"
+    url: /wetty
