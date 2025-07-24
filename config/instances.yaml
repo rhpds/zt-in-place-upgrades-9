@@ -2,7 +2,7 @@
 virtualmachines:
   - name: "host"
     image: "rhel-8.10"
-    bootloader: efi
+    # bootloader: efi
     memory: "2G"
     cores: 1
     image_size: "40G"
