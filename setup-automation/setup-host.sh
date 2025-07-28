@@ -1,4 +1,5 @@
 #!/bin/bash
+exit 0
 while [ ! -f /opt/instruqt/bootstrap/host-bootstrap-completed ]
 do
     echo "Waiting for Instruqt to finish booting the VM"
