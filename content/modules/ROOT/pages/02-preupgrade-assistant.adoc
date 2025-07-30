@@ -7,7 +7,7 @@ couple minutes.)
 
 [source,bash,run]
 ----
-leapp preupgrade --target 9.5
+leapp preupgrade --target 9.6
 ----
 
 Notice how the upgrade was "`inhibited`" because the preupgrade

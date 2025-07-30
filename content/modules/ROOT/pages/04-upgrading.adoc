@@ -34,7 +34,7 @@ process will take awhile.)
 
 [source,bash,run]
 ----
-leapp upgrade --target 9.5 --reboot
+leapp upgrade --target 9.6 --reboot
 ----
 
 Leapp is performing several actions inside a temporary environment. This
