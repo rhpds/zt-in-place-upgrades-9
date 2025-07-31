@@ -18,3 +18,6 @@ done
 # (r=3;while ! ssh -i /root/.ssh/id_rsa -o "StrictHostKeyChecking no" root@rhel08 "subscription-manager register --activationkey=${ACTIVATION_KEY} --org=12451665 --force" ; do ((--r))||exit;sleep 30;done)
 
 # ssh -i /root/.ssh/id_rsa -o "StrictHostKeyChecking no" root@rhel08 "sed -i 's/^# %wheel.*/%wheel        ALL=(ALL)       NOPASSWD: ALL/' /etc/sudoers"
+subscription-manager repos --disable=*
+subscription-manager repos --enable rhel-8-for-x86_64-baseos-rpms
+subscription-manager repos --enable rhel-8-for-x86_64-appstream-rpms
