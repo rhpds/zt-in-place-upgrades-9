@@ -17,7 +17,7 @@ file in the log directory:
 
 [source,bash,run]
 ----
-head -n 5 /var/log/leapp/leapp-report.txt
+head /var/log/leapp/leapp-report.txt
 ----
 
 One of the major security changes in RHEL 9 was that the `+root+`

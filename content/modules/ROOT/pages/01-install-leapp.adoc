@@ -26,7 +26,7 @@ dnf update -y && reboot
 1. The terminal will lose connection with the rhel 8 host leaving the
 message `+Connection to rhel08 closed+`.
 
-2. Refresh the `+rhel08+` tab until you are reconnected.
+2. Click the `reconnect` button until you are reconnected.
 
 .Terminal connection lost
 image::rebootandreconnect.png[rebootandreconnect]
