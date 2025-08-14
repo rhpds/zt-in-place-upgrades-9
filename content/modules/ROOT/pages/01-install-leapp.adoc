@@ -1,3 +1,5 @@
+:imagesdir: ../assets/images
+
 == What is Leapp?
 
 Red Hat’s leapp tool provides existing Red Hat Enterprise Linux
@@ -23,10 +25,16 @@ your system to the latest version available.
 dnf update -y && reboot
 ----
 
-1. The terminal will lose connection with the rhel 8 host leaving the
+. The terminal will lose connection with the rhel 8 host leaving the
 message `+Connection to rhel08 closed+`.
+. You can watch the system boot up in the serial console by clicking the `Serial console` tab.
 
-2. Click the `reconnect` button until you are reconnected.
+.Serial console
+image::serialconsole2.png[serialconsole]
+
+[start=3]
+. When the reboot has completed, click back on the `terminal` tab.
+. Click the `reconnect` button until you are reconnected.
 
 .Terminal connection lost
 image::rebootandreconnect.png[rebootandreconnect]
