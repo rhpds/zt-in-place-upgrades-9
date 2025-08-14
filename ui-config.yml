@@ -19,3 +19,5 @@ antora:
 tabs:
   - name: ">_ terminal"
     url: /wetty_host/ssh/root
+  - name: "serial console"
+    url: /console-host
