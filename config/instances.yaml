@@ -6,6 +6,9 @@ virtualmachines:
     memory: "4G"
     cores: 1
     image_size: "40G"
+    consoles:
+      - name: console-host
+        command: virtctl console host
     tags:
       - key: "AnsibleGroup"
         value: "bastions"

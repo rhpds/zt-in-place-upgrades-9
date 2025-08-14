@@ -20,4 +20,4 @@ tabs:
   - name: ">_ terminal"
     url: /wetty_host/ssh/root
   - name: "Serial console"
-    url: /console_host
+    url: /console-host
