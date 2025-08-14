@@ -4,6 +4,9 @@ egress:
   - ports:
       - protocol: TCP
         port: 443
+  - ports:
+      - protocol: TCP
+        port: 6443
 
 # The following lines are suggested based on Instruqt's allow_external_ingress fields:
 # host:
