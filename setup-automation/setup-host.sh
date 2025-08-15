@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT_FILE="/etc/pki/product-defaults/rhel9.pem"
+OUTPUT_FILE="/etc/pki/product-default/rhel9.pem"
 
 cat <<EOF > "$OUTPUT_FILE"
 -----BEGIN CERTIFICATE-----
