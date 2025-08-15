@@ -1,3 +1,5 @@
+:imagesdir: ../assets/images
+
 == Running the pre-upgrade assistant and resolving issues
 
 Built into the leapp tool is a utility that collects data about the
@@ -17,8 +19,11 @@ file in the log directory:
 
 [source,bash,run]
 ----
-head /var/log/leapp/leapp-report.txt
+cat /var/log/leapp/leapp-report.txt
 ----
 
 One of the major security changes in RHEL 9 was that the `+root+`
 account is no longer allowed to login via SSH by default.
+
+.SSH Remote login
+image::sshremotelogin.png[sshremotelogin]

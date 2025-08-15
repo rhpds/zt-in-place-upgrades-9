@@ -1,7 +1,12 @@
+:imagesdir: ../assets/images
+
 == Log into the serial port console
 
-This challenge will be run from the `+Serial Port+` tab which is a
+This challenge will be run from the `+Serial console+` tab which is a
 serial port console.
+
+.Serial console
+image::serialconsole3.png[serialconsole]
 
 Hit enter on your keyboard to bring up the login prompt.
 
@@ -12,11 +17,11 @@ Login as the user `+rhel+`.
 rhel
 ----
 
-Enter the password `+redhat+`.
+Enter the password.
 
-[source,bash,run]
+[source,js,subs="+macros,+attributes",role=execute]
 ----
-redhat
+{bastion_ssh_password}
 ----
 
 Change to the super user account.
@@ -56,11 +61,11 @@ Log in with this username.
 rhel
 ----
 
-Enter this password.
+Enter the password.
 
-[source,bash,run]
+[source,js,subs="+macros,+attributes",role=execute]
 ----
-redhat
+{bastion_ssh_password}
 ----
 
 Finally, we will verify the update was successful by looking at the

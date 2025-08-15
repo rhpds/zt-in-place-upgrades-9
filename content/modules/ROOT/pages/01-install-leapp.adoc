@@ -26,7 +26,7 @@ dnf update -y && reboot
 ----
 
 . The terminal will lose connection with the rhel 8 host leaving the
-message `+Connection to rhel08 closed+`.
+message `+Connection to rhel closed+`.
 . You can watch the system boot up in the serial console by clicking the `Serial console` tab.
 
 .Serial console
