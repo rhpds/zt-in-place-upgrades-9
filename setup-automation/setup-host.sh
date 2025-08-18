@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# LEAPP Note
+# For RHEL 9 repositories, enable the target OS version, for example, RHEL 9.4, of each repository.
+# If you enable only the RHEL 9 version of the repositories, the in-place upgrade is inhibited.
+
 OUTPUT_FILE="/etc/pki/product-default/rhel9.pem"
 
 cat <<EOF > "$OUTPUT_FILE"
