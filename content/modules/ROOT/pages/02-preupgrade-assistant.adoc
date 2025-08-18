@@ -12,9 +12,9 @@ couple minutes.)
 leapp preupgrade --target 9.6
 ----
 
-Notice how the upgrade was "`inhibited`" because the preupgrade
+Notice how the upgrade yields `HIGH severity reports`. The preupgrade
 assistant requires your input on one or more issues before it will
-safely proceed. Take a look at the first entry in the `+leapp-report+`
+safely proceed. Let's view the `+leapp-report+`
 file in the log directory:
 
 [source,bash,run]

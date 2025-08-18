@@ -30,4 +30,6 @@ The output should look like the screenshot below.
 .Preupgrade check after fixing the error/inhibitor.
 image::noerrorsorinhibitors.png[Preupgrade check after fixing the error/inhibitor.]
 
+NOTE: The remaining `HIGH severity reports` don't require your input.
+
 Now, you are ready to run the actual upgrade.
