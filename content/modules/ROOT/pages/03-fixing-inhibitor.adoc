@@ -1,3 +1,5 @@
+:imagesdir: ../assets/images
+
 You saw in the last step how Leapp produced an error in order to prevent
 a broken upgrade. In order to fix this issue, you will need to disable
 this feature in the sshd configuration file:
@@ -22,5 +24,10 @@ Re-run the preupgrade check to verify the change satisfied the result
 ----
 leapp preupgrade --target 9.6
 ----
+
+The output should look like the screenshot below.
+
+.Preupgrade check after fixing the error/inhibitor.
+image::noerrorsorinhibitors.png[Preupgrade check after fixing the error/inhibitor.]
 
 Now, you are ready to run the actual upgrade.

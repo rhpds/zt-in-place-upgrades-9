@@ -19,7 +19,7 @@ rhel
 
 Enter the password.
 
-[source,js,subs="+macros,+attributes",role=execute]
+[source,bash,subs="+macros,+attributes",role=execute,run]
 ----
 {bastion_ssh_password}
 ----
@@ -63,7 +63,7 @@ rhel
 
 Enter the password.
 
-[source,js,subs="+macros,+attributes",role=execute]
+[source,bash,subs="+macros,+attributes",role=execute,run]
 ----
 {bastion_ssh_password}
 ----
