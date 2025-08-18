@@ -80,6 +80,9 @@ cat /etc/redhat-release
 
 Note that we are now running the latest version of RHEL 9!
 
+.Upgrade complete
+image::upgraded.png[upgradecomplete]
+
 OPTIONAL: You may also review the log file if you so choose. The full
 output is available at /var/log/leapp/leapp-upgrade.log
 
