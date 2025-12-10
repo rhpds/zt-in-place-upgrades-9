@@ -12,5 +12,7 @@ virtualmachines:
     tags:
       - key: "AnsibleGroup"
         value: "bastions"
+      - key: "ansible_python_interpreter"
+        value: "/usr/libexec/platform-python"
     networks:
       - default
